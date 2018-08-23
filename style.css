@@ -1,3 +1,4 @@
+
 /* ---- reset ---- */
 
 html {
@@ -12,49 +13,62 @@ body {
   padding: 0;
 }
 
-
 /* ---- typography ---- */
 
 body {
-  color: #111;
-  background-color: #fff;
+  /* color: white; */
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 147%;
 }
 
-h1 { 
-  font-size: 50px; 
+h1 {
+  font-size: 40px;
 }
 
-h2 {
-}
+h2 {}
 
 h3 {}
 
 p {
-  margin: 0;
+  margin: 0 0 30px 0;
 }
 
 
 
 /* ---- layout ---- */
 
+/* ---- components ---- */
+
 #site-header {
-  padding: 30px 0;
-  color:#111;
-  background-color: white;
+  /* padding: 30px 0; */
+  color: black;
+  background: white;
 }
 
-.logo {
-  width: 8em;
-  height: auto;
+.header-text {
+  color: rgb(112,128,144);
+}
+
+.input-header {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.text-link-header {
+  font-size: 14px;
+  color: rgb(112,128,144);
+  text-align: center;
+}
+
+.site-middle {
+  background-color: rgb(0, 51, 204);
 }
 
 #site-footer {
-  color: white;
+  color: black;
   padding: 60px 0;
-  background: #111;
+  background: white;
 }
 
 #site-main {
@@ -65,19 +79,24 @@ p {
   margin: 0 20px;
 }
 
-.section {
-  margin-bottom: 20px;
-  padding-top: 20px;
+hr {
+  display: none;
 }
 
+.section {
+  /* margin-bottom: 20px;
+  padding-top: 20px; */
+}
+/* 
 @media (min-width: 768px) {
   .container {
     max-width: 728px;
     margin: 0 auto;
   }
+} */
+
+.footer-links {
+  display: inline;
 }
 
 
-
-
-/* ---- components ---- */
