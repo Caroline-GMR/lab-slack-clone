@@ -1,4 +1,3 @@
-
 /* ---- reset ---- */
 
 html {
@@ -13,62 +12,49 @@ body {
   padding: 0;
 }
 
+
 /* ---- typography ---- */
 
 body {
-  /* color: white; */
+  color: #111;
+  background-color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 147%;
 }
 
-h1 {
-  font-size: 40px;
+h1 { 
+  font-size: 50px; 
 }
 
-h2 {}
+h2 {
+}
 
 h3 {}
 
 p {
-  margin: 0 0 30px 0;
+  margin: 0;
 }
 
 
 
 /* ---- layout ---- */
 
-/* ---- components ---- */
-
 #site-header {
-  /* padding: 30px 0; */
-  color: black;
-  background: white;
+  padding: 30px 0;
+  color:#111;
+  background-color: white;
 }
 
-.header-text {
-  color: rgb(112,128,144);
-}
-
-.input-header {
-  font-size: 16px;
-  padding: 20px;
-}
-
-.text-link-header {
-  font-size: 14px;
-  color: rgb(112,128,144);
-  text-align: center;
-}
-
-.site-middle {
-  background-color: rgb(0, 51, 204);
+.logo {
+  width: 8em;
+  height: auto;
 }
 
 #site-footer {
-  color: black;
+  color: white;
   padding: 60px 0;
-  background: white;
+  background: #111;
 }
 
 #site-main {
@@ -79,24 +65,19 @@ p {
   margin: 0 20px;
 }
 
-hr {
-  display: none;
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
-.section {
-  /* margin-bottom: 20px;
-  padding-top: 20px; */
-}
-/* 
 @media (min-width: 768px) {
   .container {
     max-width: 728px;
     margin: 0 auto;
   }
-} */
-
-.footer-links {
-  display: inline;
 }
 
 
+
+
+/* ---- components ---- */
