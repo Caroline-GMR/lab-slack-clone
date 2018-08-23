@@ -41,14 +41,32 @@ p {
 /* ---- layout ---- */
 
 #site-header {
-  padding: 30px 0;
   color:#111;
   background-color: white;
 }
 
-.logo {
+#site-header .header-nav img{
+  width: 10em;
+  height: auto;
+  float: left;
+  /* position: fixed; */
+}
+
+#site-header .header-nav .burguer-menu {
+  float: right;
+  width: 2em;
+}
+
+/* .logo {
   width: 8em;
   height: auto;
+} */
+#site-main {
+  padding: 60px;
+}
+
+#site-main img {
+  width: 100%;
 }
 
 #site-footer {
@@ -57,9 +75,6 @@ p {
   background: #111;
 }
 
-#site-main {
-  margin-bottom: 60px;
-}
 
 .container {
   margin: 0 20px;
@@ -81,3 +96,17 @@ p {
 
 
 /* ---- components ---- */
+
+#site-header .header-nav img{
+  width: 10em;
+  height: auto;
+  float: left;
+  /* position: fixed; */
+}
+
+#site-header .header-nav .burguer-menu {
+  float: right;
+  width: 2em;
+}
+
+
