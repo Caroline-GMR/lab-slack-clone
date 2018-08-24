@@ -6,43 +6,89 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:700,900" rel="stylesheet">
 </head>
 <body>
   <header id="site-header">
+    <!--Nav-->
     <nav class="header-nav">
       <img src="http://www.dublinglobe.com/wp-content/uploads/2015/05/slack-logo-dublinglobe-com-1066x421.png" class="logo">
-      <img class="burguer-menu "src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/220px-Hamburger_icon.svg.png"">
+      <img class="burguer-menu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/220px-Hamburger_icon.svg.png">
     </nav>
   </header>
+
+  <!-- Main-->
   <main id="site-main">
-    <section class="container">
-      <h1>Donde tu trabajo fluye</h1> 
-      <p>Cuando tu equipo necesite poner en marcha un proyecto, contratar a un empleado, implementar código, revisar un contrato de ventas, finalizar el presupuesto del próximo año, medir una prueba A/B, planificar la apertura de tu próxima oficina o cualquier otra situación, puedes contar con Slack.</p>
+
+    <!--Head-->
+    <section id="head-container" class="container">
+      <h1 class="main-title">Where Work Happens</h1> 
+      <p class="text">When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure A/B test, plan your next office opening, and more, Slack has you covered.</p>
+      
+      <!--Head form-->
       <form class="site-form">
-        <input type="text" placeholder="Dirección de correo">
-        <button type="button">Primeiros Pasos</button>
+        <div>
+          <input class="email-input" type="text" placeholder="Email address">
+        </div>
+        <button class="button" type="button">Get started</button>
       </form>
-      <p>Ya usas Slack?<a href="#">Conectarse</a></p>
+      <p class="sign-link">Already using Slack?<a href="#">Sign in</a></p>
       <img src="https://a.slack-edge.com/43f70/marketing/img/home/home_illo.es-ES.png">
     </section>
-    <section class="container">
-      <h2>Estás en buena compañía</h2>
-      <p>Para millones de personas de todo el mundo, Slack es donde el trabajo fluye.</p>
-      <button type="button">Descubre por qué</button>
+
+    <!--Discover area-->
+    <section id="discover-area" class="container">
       <div>
-        <img src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/airbnb.png">
-        <img src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/capital_one.png">
-        <img src="https://a.slack-edge.com/bd839/marketing/img/logos/company/target.png">
-        <img src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/oracle.png">
-        <img src="https://a.slack-edge.com/cc97d0/marketing/img/logos/company/trivago.png">
-        <img src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/ticketmaster.png">
+        <h2 class="discover-title">You're in good company</h2>
+        <p class="discover-text">Millions of people around the world have already made Slack the place where their work happens.</p>
+        <div id="discover-button">
+          <button class="second-button" type="button">Descubre por qué</button>
+        </div>
+        <div class="discover-img">
+          <div>
+            <img src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/airbnb.png">
+          </div>
+          <hr>
+          <div>
+            <img src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/capital_one.png">
+          </div>
+          <hr>
+          <div>
+            <img src="https://a.slack-edge.com/bd839/marketing/img/logos/company/target.png">
+          </div>
+          <hr>
+          <div>
+            <img src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/oracle.png">
+          </div>
+          <hr>
+          <div>
+            <img src="https://a.slack-edge.com/cc97d0/marketing/img/logos/company/trivago.png">
+          </div>
+          <hr>
+          <div>
+            <img class="last-img" src="https://a.slack-edge.com/c04e5/marketing/img/logos/company/ticketmaster.png">
+          </div>
+        </div>
       </div>
     </section>
-    <section class="container">
-      <h2>Prueba Slack con tu equipo gratis</h2>
-      <button type="button">Primeiros Pasos</button>
+
+    <!--Try area-->
+    <section class="try-container container">
+      <div>
+        <p class="try-container-title">Try it for free</p>
+        <p class="sign-link">Already using Slack?<a href="#">Sign in</a></p>
+        <form class="site-form">
+          <div>
+            <input class="email-input" type="text" placeholder="Email address">
+          </div>
+          <button class="button" type="button">Get started</button>
+        </form>
+        <!-- <button type="button">Primeiros Pasos</button> -->
+      </div>
     </section>
   </main>
+
+  <!--Footer-->
   <footer id="site-footer">
     <section class="container">
       <ul>
