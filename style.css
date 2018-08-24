@@ -42,6 +42,23 @@ p {
 
 /* ---- layout ---- */
 
+/*Abstract parts*/
+/*Top level Rules*/
+
+#site-main {
+  padding-top: 100px;
+}
+
+/* ---- components ---- */
+/*TODO*/
+/* .button {
+
+}
+
+.button-primary{
+
+} */
+
 /* HEADER */
 #site-header {
   color:#111;
@@ -62,9 +79,7 @@ p {
 }
 
 /* MAIN */
-#site-main {
-  padding-top: 100px;
-}
+
 
 #site-main .main-title {
   font-size: 40px;
@@ -103,6 +118,8 @@ p {
   font-size: 15px;
   margin-bottom: 30px;
 }
+
+/*Discover section*/
 
 /*DISCOVER AREA*/
 #discover-area {
@@ -187,9 +204,6 @@ p {
     margin: 0 auto;
   }
 }
-
-/* ---- components ---- */
-
 
 
 
