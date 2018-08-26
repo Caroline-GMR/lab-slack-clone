@@ -27,11 +27,7 @@ h1 {
   line-height: 100%;
 }
 
-h2 { 
-  font-family: 'Playfair Display';
-}
-
-h3 { 
+h2 h3 { 
   font-family: 'Playfair Display';
 }
 
@@ -86,7 +82,7 @@ p {
   font-weight: 900;
 }
 
-#head-container .text {
+.head-container .text {
   margin-bottom: 40px;
 }
 
@@ -122,28 +118,29 @@ p {
 /*Discover section*/
 
 /*DISCOVER AREA*/
-#discover-area {
+.discover-area {
   background-color: rgb(230,230,230);
   margin: 0;
 }
-#discover-area .discover-title {
+
+.discover-area .discover-title {
   font-size: 25px;
   font-weight: 700;
   text-align: center;
   padding: 40px 0 0 0;
 }
 
-#discover-area .discover-text {
+.discover-area .discover-text {
   text-align: center;
   margin: 0 30px 30px 30px;
 }
 
-#discover-button {
+.discover-button {
   width: 100%;
   padding: 0 10% 0 10%;
 }
 
-#discover-area .second-button {
+.discover-area .second-button {
   background-color: white;
   color: rgb(64,73,170);
   text-transform: uppercase;
@@ -184,14 +181,24 @@ p {
 
 /*FOOTER*/
 #site-footer {
-  color: white;
   padding: 60px 0;
-  background: #111;
+  background: white;
 }
 
 .container {
+  color: rgb(119,136,153);
   margin: 0 20px;
 }
+
+#site-footer .container li{
+  list-style: none;
+}
+
+#site-footer .container a{
+  text-decoration: none;
+  color: rgb(119,136,153);
+}
+
 
 .section {
   margin-bottom: 20px;
